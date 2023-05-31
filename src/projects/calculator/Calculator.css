@@ -1,0 +1,91 @@
+.calcContainer {
+  height: 100vh;
+  width: 100vw;
+  background: #c2c2d6;
+  padding: 50px;
+}
+
+#calculator {
+  height: 391px;
+  width: 320px;
+  background-color: black;
+  border: 2px solid #47476b;
+  padding: 5px;
+  position: relative;
+  margin: auto;
+}
+
+#formulaScreen,
+input[type="text"],
+textarea {
+  min-height: 20px;
+  font-family: "Calculator", sans-serif;
+  font-size: 20px;
+  color: orange;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 25px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  background: black;
+  border: 5;
+  width: 306px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+#outputScreen {
+  min-height: 20px;
+  font-size: 29px;
+  font-family: "Calculator", sans-serif;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+  background: black;
+}
+
+.key {
+  position: relative;
+  height: 62px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: #4d4d4d;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.key:hover {
+  color: black;
+  outline: 0.05em solid grey;
+  z-index: 4;
+}
+
+.key:focus,
+key:active {
+  outline: 0 !important;
+  box-shadow: none;
+}
+
+#equals {
+  height: 124px;
+  background: #2a56bd;
+  position: absolute;
+  right: 5px;
+  width: 24.2%;
+  z-index: 3;
+}
+
+#clear,
+#clear-last {
+  background: #bd4343;
+}
+
+.operation {
+  background: #727272;
+}

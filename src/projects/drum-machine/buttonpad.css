@@ -1,0 +1,27 @@
+.drum-pad {
+  position: relative;
+  float: left;
+  width: 90px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #858585;
+  box-shadow: 3px 3px 3px #222, 3px 3px 3px #2f2f2f;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.drum-pad:focus,
+.drum-pad:active {
+  background-color: orange;
+  box-shadow: 1px 1px 1px #222, 1px 1px 1px #2f2f2f;
+}
+
+.disabled:focus,
+.disabled:active {
+  background-color: #858585;
+  box-shadow: 1px 1px 1px #222, 1px 1px 1px #2f2f2f;
+}

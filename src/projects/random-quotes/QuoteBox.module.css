@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.7s linear;
+}
+
+.quoteBox {
+  width: 450px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  padding: 40px 50px;
+  display: table;
+  margin: 10px auto 0px;
+}
+
+.text {
+  text-align: center;
+  width: 450px;
+  font-size: 1.5em;
+}
+
+.quoteAuthor {
+  width: 450px;
+  padding-top: 20px;
+  font-size: 1.2em;
+  text-align: right;
+  margin-bottom: 15%;
+}
+
+.buttons {
+  width: 450px;
+  margin: auto;
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  text-align: left;
+}
+
+.tweetQuote {
+  padding: 0px 5px 0px 0px;
+}
+
+.newQuote {
+  position: absolute;
+  right: -20px;
+}
+
+.btn {
+  transition: background-color 0.7s linear;
+  border: 0;
+  color: white;
+}

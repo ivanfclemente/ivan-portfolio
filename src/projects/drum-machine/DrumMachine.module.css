@@ -1,0 +1,106 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #a2a2a2;
+}
+
+.drumMachine {
+  outline: 5px solid orange;
+  position: absolute;
+  width: 660px;
+  text-align: center;
+  background-color: #b3b3b3;
+}
+
+.pad {
+  width: 325px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 5px;
+  margin: 30px 20px;
+  float: left;
+}
+
+.controls {
+  width: 220px;
+  height: 270px;
+  margin: 30px 20px;
+  float: right;
+  vertical-align: top;
+  position: relative;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.display {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+}
+
+.control {
+  width: 200px;
+  height: 50px;
+  margin: 30px auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.controlName {
+  width: 100%;
+}
+
+.onOff {
+  width: 50px;
+  height: 24px;
+  background-color: black;
+  margin: auto;
+  position: relative;
+}
+
+.switch {
+  width: 22px;
+  height: 20px;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(8%, -50%);
+}
+
+.switchOn {
+  transform: translate(120%, -50%);
+}
+
+.slider {
+  height: 5px;
+  background: #424242;
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease;
+  box-shadow: 2px 2px 2px #222, 0 0 2px #2f2f2f;
+  border: 1px solid #000;
+}
+
+.bar {
+  width: 8px;
+  height: 25px;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(12%, -50%);
+  box-shadow: 1px 1px 1px #111, 0 0 1px #1e1e1e;
+}
