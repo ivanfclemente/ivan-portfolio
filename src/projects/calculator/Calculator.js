@@ -81,8 +81,8 @@ const Calculator = () => {
       fixExpression = fixExpression.slice(0, -1);
     console.log(fixExpression);
 
-    // setAnswer(eval(fixExpression));
-    setAnswer(fixExpression);
+    // eslint-disable-next-line no-eval
+    setAnswer(eval(fixExpression));
     setExpression(fixExpression + "=");
   };
 
