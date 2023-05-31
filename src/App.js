@@ -46,6 +46,11 @@ const router = createBrowserRouter([
             <p>
               <Link to="random-quotes">Random Quotes</Link>
             </p>
+            <p>
+              <Link to="https://ivan-meetups.netlify.app">
+                Meetups (NextJS)
+              </Link>
+            </p>
             <br />
             <h3>Vanilla JavaScript</h3>
             <p>
