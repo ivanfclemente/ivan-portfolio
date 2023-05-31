@@ -11,7 +11,6 @@ import QuoteBoxPage from "./pages/QuoteBox";
 import Favorites from "./projects/favorites/App";
 import BookStorePage from "./pages/BookStore";
 import FoodOrderPage from "./pages/FoodOrder";
-import IngredientsPage from "./pages/Ingredients";
 
 const router = createBrowserRouter([
   {

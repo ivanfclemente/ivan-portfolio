@@ -81,7 +81,8 @@ const Calculator = () => {
       fixExpression = fixExpression.slice(0, -1);
     console.log(fixExpression);
 
-    setAnswer(eval(fixExpression));
+    // setAnswer(eval(fixExpression));
+    setAnswer(fixExpression);
     setExpression(fixExpression + "=");
   };
 
