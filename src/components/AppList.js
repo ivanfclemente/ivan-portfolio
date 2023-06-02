@@ -33,22 +33,48 @@ const AppList = () => {
           <Link to="random-quotes">Random Quotes</Link>
         </p>
         <p>
-          <a href="https://ivan-meetups.netlify.app">Meetups (NextJS)</a>
+          <a
+            href="https://ivan-meetups.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meetups (NextJS)
+          </a>
         </p>
       </Card>
       <Card>
         <h3>Vanilla JavaScript</h3>
         <p>
-          <a href="bankins/index.html">Bank</a>
+          <a
+            href="bankins/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bank
+          </a>
         </p>
         <p>
-          <a href="https://ivan-forkify.netlify.app/">Forkify</a>
+          <a
+            href="https://ivan-forkify.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Forkify
+          </a>
         </p>
         <p>
-          <a href="mapty/index.html">Mapty</a>
+          <a href="mapty/index.html" target="_blank" rel="noopener noreferrer">
+            Mapty
+          </a>
         </p>
         <p>
-          <a href="pigGame/index.html">Pig Game</a>
+          <a
+            href="pigGame/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Pig Game
+          </a>
         </p>
       </Card>
       <Card>
