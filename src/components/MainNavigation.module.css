@@ -1,6 +1,5 @@
 .header {
-  max-width: 60rem;
-  height: 25px;
+  background-color: #252424;
   margin: auto;
   padding: 2rem;
   display: flex;

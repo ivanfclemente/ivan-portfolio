@@ -1,8 +1,9 @@
-import { RouterProvider, createBrowserRouter, Link } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import RootLayout from "./pages/Root";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import AppList from "./components/AppList";
 import CalculatorPage from "./pages/Calculator";
 import ClockPage from "./pages/Clock";
 import DrumMachinePage from "./pages/DrumMachine";
@@ -19,54 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: (
-          <div className="App">
-            <h3>React Apps</h3>
-            <p>
-              <Link to="clock">25+5 Clock</Link>
-            </p>
-            <p>
-              <Link to="book-store">Book Store</Link>
-            </p>
-            <p>
-              <Link to="calculator">Calculator</Link>
-            </p>
-            <p>
-              <Link to="drum-machine">Drum Machine</Link>
-            </p>
-            <p>
-              <Link to="favorites">Favorites</Link>
-            </p>
-            <p>
-              <Link to="food-order">Food Order</Link>
-            </p>
-            <p>
-              <Link to="markdown-previewer">Markdown Previewer</Link>
-            </p>
-            <p>
-              <Link to="random-quotes">Random Quotes</Link>
-            </p>
-            <p>
-              <Link to="https://ivan-meetups.netlify.app">
-                Meetups (NextJS)
-              </Link>
-            </p>
-            <br />
-            <h3>Vanilla JavaScript</h3>
-            <p>
-              <a href="bankins/index.html">Bank</a>
-            </p>
-            <p>
-              <a href="https://ivan-forkify.netlify.app/">Forkify</a>
-            </p>
-            <p>
-              <a href="mapty/index.html">Mapty</a>
-            </p>
-            <p>
-              <a href="pigGame/index.html">Pig Game</a>
-            </p>
-          </div>
-        ),
+        element: <AppList />,
       },
       {
         path: "clock",
