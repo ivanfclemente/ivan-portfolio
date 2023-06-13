@@ -82,6 +82,8 @@ const AppList = () => {
           Note: These are neither professional nor original works.
           <br />
           The projects were built during several courses.
+          <br />
+          <a href="https://github.com/pai-natal?tab=repositories">GitHub</a>
         </p>
       </Card>
     </div>
