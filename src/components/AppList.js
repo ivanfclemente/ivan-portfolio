@@ -83,7 +83,7 @@ const AppList = () => {
           <br />
           The projects were built during several courses.
           <br />
-          <a href="https://github.com/pai-natal?tab=repositories">GitHub</a>
+          <a href="https://github.com/ivanfclemente?tab=repositories">GitHub</a>
         </p>
       </Card>
     </div>
