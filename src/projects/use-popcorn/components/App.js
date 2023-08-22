@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import classes from "./App.module.css";
 
 import NavBar from "./NavBar";
@@ -20,16 +20,16 @@ function UsePopcorn() {
 
   const [selectedId, setSelectedId] = useState(null);
 
+  const handleCloseMovie = useCallback(() => {
+    setSelectedId(null);
+  }, []);
+
   const { movies, isLoading, error } = useMovies(query, handleCloseMovie);
 
   const [watched, setWatched] = useLocalStorageState([], "watched");
 
   function handleSelectMovie(id) {
     setSelectedId((selectedId) => (id === selectedId ? null : id));
-  }
-
-  function handleCloseMovie() {
-    setSelectedId(null);
   }
 
   function handleAddWatched(movie) {
