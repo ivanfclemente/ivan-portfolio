@@ -88,7 +88,7 @@ img {
 }
 
 .progress progress {
-  -webkit-appearance: none;
+  appearance: none;
   width: 100%;
   height: 12px;
   grid-column: 1 / -1;
