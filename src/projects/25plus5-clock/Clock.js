@@ -167,14 +167,6 @@ const Clock = () => {
           id="beep"
           src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
         />
-        <div className={classes.footer}>
-          <p className={classes.text}>
-            Designed and coded by{" "}
-            <a className={classes.link} href="mailto: ivanfclemente@gmail.com">
-              Ivan
-            </a>
-          </p>
-        </div>
       </div>
     </div>
   );

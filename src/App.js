@@ -12,6 +12,11 @@ import QuoteBoxPage from "./pages/QuoteBox";
 import Favorites from "./projects/favorites/App";
 import BookStorePage from "./pages/BookStore";
 import FoodOrderPage from "./pages/FoodOrder";
+import PizzaMenuPage from "./pages/PizzaMenuPage";
+import EatNSplitPage from "./pages/EatNSplitPage";
+import FarAwayPage from "./pages/FarAwayPage";
+import UsePopcornPage from "./pages/UsePopcornPage";
+import ReactQuizPage from "./pages/ReactQuizPage";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +44,14 @@ const router = createBrowserRouter([
         element: <DrumMachinePage />,
       },
       {
+        path: "eat-n-split",
+        element: <EatNSplitPage />,
+      },
+      {
+        path: "far-away",
+        element: <FarAwayPage />,
+      },
+      {
         path: "favorites",
         element: <Favorites />,
         children: [
@@ -61,8 +74,20 @@ const router = createBrowserRouter([
         element: <MarkdownPreviewerPage />,
       },
       {
+        path: "pizza-menu",
+        element: <PizzaMenuPage />,
+      },
+      {
         path: "random-quotes",
         element: <QuoteBoxPage />,
+      },
+      {
+        path: "react-quiz",
+        element: <ReactQuizPage />,
+      },
+      {
+        path: "use-popcorn",
+        element: <UsePopcornPage />,
       },
     ],
   },

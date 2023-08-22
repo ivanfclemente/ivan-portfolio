@@ -16,8 +16,8 @@
 }
 
 #formulaScreen,
-input[type="text"],
-textarea {
+.calcInput,
+.textarea {
   min-height: 20px;
   font-family: "Calculator", sans-serif;
   font-size: 20px;
@@ -32,7 +32,7 @@ textarea {
   width: 306px;
 }
 
-input::placeholder {
+.calcInput::placeholder {
   color: black;
 }
 

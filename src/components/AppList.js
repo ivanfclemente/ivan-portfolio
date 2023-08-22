@@ -21,6 +21,12 @@ const AppList = () => {
           <Link to="drum-machine">Drum Machine</Link>
         </p>
         <p>
+          <Link to="eat-n-split">Eat-N-Split</Link>
+        </p>
+        <p>
+          <Link to="far-away">Far Away Travel List</Link>
+        </p>
+        <p>
           <Link to="favorites">Favorites</Link>
         </p>
         <p>
@@ -30,7 +36,16 @@ const AppList = () => {
           <Link to="markdown-previewer">Markdown Previewer</Link>
         </p>
         <p>
+          <Link to="pizza-menu">Pizza Menu</Link>
+        </p>
+        <p>
           <Link to="random-quotes">Random Quotes</Link>
+        </p>
+        <p>
+          <Link to="react-quiz">React Quiz</Link>
+        </p>
+        <p>
+          <Link to="use-popcorn">usePopcorn</Link>
         </p>
         <p>
           <a

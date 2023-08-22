@@ -4,8 +4,6 @@ import { Route, Routes } from "react-router-dom";
 
 import configureProductsStore from "./hooks-store/products-store";
 
-import "./App.css";
-
 import Navigation from "./components/Nav/Navigation";
 import ProductsPage from "./containers/Products";
 import FavoritesPage from "./containers/Favorites";

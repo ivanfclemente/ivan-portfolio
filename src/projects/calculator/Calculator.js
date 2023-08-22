@@ -112,7 +112,13 @@ const Calculator = () => {
       <div id="calculator">
         <div id="display">
           <div id="formulaScreen">
-            <input type="text" value={expression} placeholder="0" disabled />
+            <input
+              className="calcInput"
+              type="text"
+              value={expression}
+              placeholder="0"
+              disabled
+            />
           </div>
           <div id="outputScreen">{answer}</div>
         </div>

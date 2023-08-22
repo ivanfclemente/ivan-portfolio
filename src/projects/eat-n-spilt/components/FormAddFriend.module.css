@@ -1,0 +1,55 @@
+:root {
+  --color-lightest: #fff4e6;
+  --color-light: #ffe8cc;
+  --color-medium: #ffa94d;
+  --color-dark: #ff922b;
+}
+
+.formAddFriend {
+  grid-template-columns: 1fr 1.5fr;
+  margin-bottom: 1.6rem;
+  padding: 1.2rem;
+
+  display: grid;
+  align-items: center;
+  gap: 1.2rem;
+
+  background-color: var(--color-lightest);
+  border-radius: 7px;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.label::first-letter {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.input {
+  font-family: inherit;
+  color: inherit;
+  padding: 0.7rem;
+  text-align: center;
+  border: 1px solid var(--color-light);
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid var(--color-dark);
+}
+
+.formAddFriend .button {
+  margin-top: 0.6rem;
+  grid-column: 2;
+}
+
+.formAddFriend h2 {
+  grid-column: 1 / -1;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.6rem;
+}
