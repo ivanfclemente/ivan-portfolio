@@ -9,16 +9,10 @@ const AppList = () => {
       <Card>
         <h3>React Apps</h3>
         <p>
-          <Link to="clock">25+5 Clock</Link>
+          <Link to="atomic-blog">Atomic Blog</Link>
         </p>
         <p>
           <Link to="book-store">Book Store</Link>
-        </p>
-        <p>
-          <Link to="calculator">Calculator</Link>
-        </p>
-        <p>
-          <Link to="drum-machine">Drum Machine</Link>
         </p>
         <p>
           <Link to="eat-n-split">Eat-N-Split</Link>
@@ -33,13 +27,7 @@ const AppList = () => {
           <Link to="food-order">Food Order</Link>
         </p>
         <p>
-          <Link to="markdown-previewer">Markdown Previewer</Link>
-        </p>
-        <p>
           <Link to="pizza-menu">Pizza Menu</Link>
-        </p>
-        <p>
-          <Link to="random-quotes">Random Quotes</Link>
         </p>
         <p>
           <Link to="react-quiz">React Quiz</Link>
@@ -49,12 +37,39 @@ const AppList = () => {
         </p>
         <p>
           <a
+            href="https://ivan-worldwise.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WorldWise Travel
+          </a>
+        </p>
+        <p>
+          <a
             href="https://ivan-meetups.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
           >
             Meetups (NextJS)
           </a>
+        </p>
+      </Card>
+      <Card>
+        <h3>Mini React Apps</h3>
+        <p>
+          <Link to="clock">25+5 Clock</Link>
+        </p>
+        <p>
+          <Link to="calculator">Calculator</Link>
+        </p>
+        <p>
+          <Link to="drum-machine">Drum Machine</Link>
+        </p>
+        <p>
+          <Link to="markdown-previewer">Markdown Previewer</Link>
+        </p>
+        <p>
+          <Link to="random-quotes">Random Quotes</Link>
         </p>
       </Card>
       <Card>

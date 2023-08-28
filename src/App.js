@@ -17,6 +17,7 @@ import EatNSplitPage from "./pages/EatNSplitPage";
 import FarAwayPage from "./pages/FarAwayPage";
 import UsePopcornPage from "./pages/UsePopcornPage";
 import ReactQuizPage from "./pages/ReactQuizPage";
+import AtomicBlogPage from "./pages/AtomicBlog";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "clock",
         element: <ClockPage />,
+      },
+      {
+        path: "atomic-blog",
+        element: <AtomicBlogPage />,
       },
       {
         path: "book-store",
