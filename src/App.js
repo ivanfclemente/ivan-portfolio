@@ -79,10 +79,6 @@ const router = createBrowserRouter([
         element: <MarkdownPreviewerPage />,
       },
       {
-        path: "pizza-menu",
-        element: <PizzaMenuPage />,
-      },
-      {
         path: "random-quotes",
         element: <QuoteBoxPage />,
       },

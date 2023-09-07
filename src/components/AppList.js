@@ -24,10 +24,16 @@ const AppList = () => {
           <Link to="favorites">Favorites</Link>
         </p>
         <p>
-          <Link to="food-order">Food Order</Link>
+          <a
+            href="https://ivan-fast-pizza.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fast React Pizza
+          </a>
         </p>
         <p>
-          <Link to="pizza-menu">Pizza Menu</Link>
+          <Link to="food-order">Food Order</Link>
         </p>
         <p>
           <Link to="react-quiz">React Quiz</Link>
