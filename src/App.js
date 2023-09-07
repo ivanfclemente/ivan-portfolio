@@ -12,7 +12,6 @@ import QuoteBoxPage from "./pages/QuoteBox";
 import Favorites from "./projects/favorites/App";
 import BookStorePage from "./pages/BookStore";
 import FoodOrderPage from "./pages/FoodOrder";
-import PizzaMenuPage from "./pages/PizzaMenuPage";
 import EatNSplitPage from "./pages/EatNSplitPage";
 import FarAwayPage from "./pages/FarAwayPage";
 import UsePopcornPage from "./pages/UsePopcornPage";
