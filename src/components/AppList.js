@@ -21,9 +21,6 @@ const AppList = () => {
           <Link to="far-away">Far Away Travel List</Link>
         </p>
         <p>
-          <Link to="favorites">Favorites</Link>
-        </p>
-        <p>
           <a
             href="https://ivan-fast-pizza.netlify.app/"
             target="_blank"

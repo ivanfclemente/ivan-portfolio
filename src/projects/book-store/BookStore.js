@@ -1,39 +1,20 @@
-import { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-
-import Cart from "./components/Cart/Cart";
-import Layout from "./components/Layout/Layout";
 import Products from "./components/Shop/Products";
+
+import configureProductsStore from "./hooks-store/products-store";
+
+import MainHeader from "./components/MainHeader/MainHeader";
+import Layout from "./components/UI/Layout";
+import { useSelector } from "react-redux";
 import Notification from "./components/UI/Notification";
-import { sendCartData, fetchCartData } from "./store/cart-actions";
 
-import classes from "./BookStore.module.css";
+configureProductsStore();
 
-let isInitial = true;
-
-function BookStore() {
-  const dispatch = useDispatch();
-  const showCart = useSelector((state) => state.ui.cartIsVisible);
-  const cart = useSelector((state) => state.cart);
+const BookStore = (props) => {
   const notification = useSelector((state) => state.ui.notification);
 
-  useEffect(() => {
-    dispatch(fetchCartData());
-  }, [dispatch]);
-
-  useEffect(() => {
-    if (isInitial) {
-      isInitial = false;
-      return;
-    }
-
-    if (cart.changed) {
-      dispatch(sendCartData(cart));
-    }
-  }, [cart, dispatch]);
-
   return (
-    <div className={classes.container}>
+    <>
+      <MainHeader />
       {notification && (
         <Notification
           status={notification.status}
@@ -41,12 +22,13 @@ function BookStore() {
           message={notification.message}
         />
       )}
-      <Layout>
-        {showCart && <Cart />}
-        <Products />
-      </Layout>
-    </div>
+      <main>
+        <Layout>
+          <Products />
+        </Layout>
+      </main>
+    </>
   );
-}
+};
 
 export default BookStore;

@@ -9,7 +9,6 @@ import ClockPage from "./pages/Clock";
 import DrumMachinePage from "./pages/DrumMachine";
 import MarkdownPreviewerPage from "./pages/MarkdownPreviewer";
 import QuoteBoxPage from "./pages/QuoteBox";
-import Favorites from "./projects/favorites/App";
 import BookStorePage from "./pages/BookStore";
 import FoodOrderPage from "./pages/FoodOrder";
 import EatNSplitPage from "./pages/EatNSplitPage";
@@ -54,20 +53,6 @@ const router = createBrowserRouter([
       {
         path: "far-away",
         element: <FarAwayPage />,
-      },
-      {
-        path: "favorites",
-        element: <Favorites />,
-        children: [
-          {
-            index: true,
-            element: <Favorites />,
-          },
-          {
-            path: "favorites",
-            element: <Favorites />,
-          },
-        ],
       },
       {
         path: "food-order",

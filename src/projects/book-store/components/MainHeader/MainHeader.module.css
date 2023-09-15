@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #252424;
+  border-top: 1px solid #1ad1b9;
 }
 
 .header h1 {

@@ -5,7 +5,7 @@ import store from "../projects/book-store/store/index";
 function BookStorePage() {
   return (
     <Provider store={store}>
-      <BookStore />{" "}
+      <BookStore />
     </Provider>
   );
 }
