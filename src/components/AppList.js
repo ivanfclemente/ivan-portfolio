@@ -9,34 +9,13 @@ const AppList = () => {
       <Card>
         <h3>React Apps</h3>
         <p>
-          <Link to="atomic-blog">Atomic Blog</Link>
-        </p>
-        <p>
-          <Link to="book-store">Book Store</Link>
-        </p>
-        <p>
-          <Link to="eat-n-split">Eat-N-Split</Link>
-        </p>
-        <p>
-          <Link to="far-away">Far Away Travel List</Link>
-        </p>
-        <p>
           <a
-            href="https://ivan-fast-pizza.netlify.app/"
+            href="https://ivan-the-wild-oasis.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Fast React Pizza
+            The Wild Oasis
           </a>
-        </p>
-        <p>
-          <Link to="food-order">Food Order</Link>
-        </p>
-        <p>
-          <Link to="react-quiz">React Quiz</Link>
-        </p>
-        <p>
-          <Link to="use-popcorn">usePopcorn</Link>
         </p>
         <p>
           <a
@@ -53,11 +32,42 @@ const AppList = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Meetups (NextJS)
+            Meetups
           </a>
         </p>
+        <p>
+          <a
+            href="https://ivan-fast-pizza.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fast React Pizza
+          </a>
+        </p>
+        <p>
+          <Link to="atomic-blog">Atomic Blog</Link>
+        </p>
+        <p>
+          <Link to="book-store">Book Store</Link>
+        </p>
+        <p>
+          <Link to="eat-n-split">Eat-N-Split</Link>
+        </p>
+        <p>
+          <Link to="far-away">Far Away Travel List</Link>
+        </p>
+
+        <p>
+          <Link to="food-order">Food Order</Link>
+        </p>
+        <p>
+          <Link to="react-quiz">React Quiz</Link>
+        </p>
+        <p>
+          <Link to="use-popcorn">usePopcorn</Link>
+        </p>
       </Card>
-      <Card>
+      {/* <Card>
         <h3>Mini React Apps</h3>
         <p>
           <Link to="clock">25+5 Clock</Link>
@@ -74,7 +84,7 @@ const AppList = () => {
         <p>
           <Link to="random-quotes">Random Quotes</Link>
         </p>
-      </Card>
+      </Card> */}
       <Card>
         <h3>Vanilla JavaScript</h3>
         <p>
@@ -111,13 +121,7 @@ const AppList = () => {
         </p>
       </Card>
       <Card>
-        <p>
-          Note: These are neither professional nor original works.
-          <br />
-          The projects were built during several courses.
-          <br />
-          <a href="https://github.com/ivanfclemente?tab=repositories">GitHub</a>
-        </p>
+        <a href="https://github.com/ivanfclemente?tab=repositories">GitHub</a>
       </Card>
     </div>
   );
